@@ -1,64 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:tools="http://schemas.android.com/tools"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  tools:context="com.animeshroy.android.sports.MainActivity">
+<android.support.constraint.motion.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/sports_motion"
+    tools:context="com.animeshroy.android.sports.MainActivity">
 
-  <TextView
-    android:id="@+id/banner"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_margin="@dimen/standard_half"
-    android:background="@color/colorPrimaryDark"
-    android:gravity="center"
-    android:padding="@dimen/standard_half"
-    android:text="@string/sports"
-    android:textColor="@android:color/white"
-    android:textSize="@dimen/standard_text_size"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_half"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="@dimen/standard_half"
+        android:text="@string/sports"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/standard_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
   <View
-    android:id="@+id/sportsView"
-    android:layout_width="@dimen/happySize"
-    android:layout_height="@dimen/happySize"
-    android:background="#FF0000"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+      android:id="@+id/sportsView"
+      android:layout_width="@dimen/happySize"
+      android:layout_height="@dimen/happySize"
+      android:background="#FF0000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
-  <TextView
-    android:id="@+id/cricketLabel"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="@dimen/standard_half"
-    android:text="@string/cricket"
-    android:textSize="@dimen/standard_text_size"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/cricketLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_half"
+        android:text="@string/cricket"
+        android:textSize="@dimen/standard_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-  <TextView
-    android:id="@+id/middleLabel"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="@dimen/standard_half"
-    android:text="@string/middle"
-    android:textSize="@dimen/standard_text_size"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toStartOf="@+id/footballLabel"
-    app:layout_constraintStart_toEndOf="@+id/cricketLabel" />
+    <TextView
+        android:id="@+id/middleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_half"
+        android:text="@string/middle"
+        android:textSize="@dimen/standard_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/footballLabel"
+        app:layout_constraintStart_toEndOf="@+id/cricketLabel" />
 
-  <TextView
-    android:id="@+id/footballLabel"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="@dimen/standard_half"
-    android:text="@string/football"
-    android:textSize="@dimen/standard_text_size"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent" />
+    <TextView
+        android:id="@+id/footballLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_half"
+        android:text="@string/football"
+        android:textSize="@dimen/standard_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.motion.MotionLayout>
