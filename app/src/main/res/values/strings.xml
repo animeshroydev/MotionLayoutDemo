@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Sports</string>
+  <string name="sports">Sports Animation</string>
+  <string name="cricket">Cricket</string>
+  <string name="football">Football</string>
+  <string name="middle">Middle</string>
+</resources>
