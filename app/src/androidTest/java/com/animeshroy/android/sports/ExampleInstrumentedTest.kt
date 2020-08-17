@@ -1,4 +1,4 @@
-package com.raywenderlich.android.behappy
+package com.animeshroy.android.sports
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
