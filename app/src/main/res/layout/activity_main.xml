@@ -22,14 +22,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-  <View
+  <android.support.constraint.utils.ImageFilterView
       android:id="@+id/sportsView"
       android:layout_width="@dimen/happySize"
       android:layout_height="@dimen/happySize"
-      android:background="#FF0000"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      android:src="@drawable/sad"
+      app:altSrc="@drawable/happy" />
+
 
     <TextView
         android:id="@+id/cricketLabel"
